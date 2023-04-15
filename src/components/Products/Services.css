@@ -1,0 +1,150 @@
+/* .product-left{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.product-right {
+  display: grid;
+  /* justify-content: right; */
+  align-items: center;
+}
+
+.services-title {
+  color: #25305a;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0 auto;
+  text-align: center;
+}
+/* .desktop11-text{
+    margin: 0 auto;
+} */
+/* h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 25px;
+    color:#000000;
+} */
+
+.img-icon {
+  display: flex;
+  align-items: center;
+  /* padding: 15px; */
+}
+
+/* .img-icon-text{
+    padding-left: 10px;
+} */
+
+.product-back {
+  background-color: #fff;
+}
+
+.product-box {
+  background-color: gray;
+  height: 100%;
+}
+
+.teacher-ui-text {
+  font-size: 21px;
+  line-height: 30px;
+  font-family: "Poppins";
+}
+
+.teacher-ui-text {
+  font-size: 18px;
+  line-height: 30px;
+  font-family: "Poppins";
+  text-transform: capitalize;
+  color: #000000;
+  font-weight: 600;
+}
+
+.conference-text {
+  font-size: 20px;
+  line-height: 30px;
+  font-family: "Helvetica";
+  /* color: #252e48; */
+  margin: 0 auto;
+  padding-left: 10px;
+}
+
+.social-text {
+  font-size: 21px;
+  line-height: 30px;
+  font-family: "Helvetica";
+  color: #000000;
+  font-weight: 600;
+}
+
+.btn-learn-more {
+  color: #fff;
+  background-color: #82bb36;
+  border-radius: 5px;
+  border: none;
+  width: 189px;
+  height: 49.82px;
+}
+
+@media screen and (max-width: 960px) {
+  .button {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .conference-text {
+    font-size: 18px;
+  }
+  .We {
+    font-size: 20px;
+  }
+  .social-text {
+    font-size: 18px;
+  }
+  .services-title {
+    font-size: 25px;
+  }
+  .abc {
+    font-size: 25px;
+  }
+  .component-title-text {
+    font-size: 30px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .abc {
+    font-size: 25px !important;
+  }
+  .services-title {
+    font-size: 20px;
+  }
+  .component-title-text {
+    font-size: 30px;
+  }
+}
+
+.abc {
+  color: #25305a;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.component-title-text {
+  color: #25305a;
+  /* font-size: 45px; */
+  /* font-family: 'Poppins'; */
+  font-style: normal;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 auto;
+}

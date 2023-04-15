@@ -1,0 +1,29 @@
+.bg-navbar{
+  /* background: linear-gradient(26deg, #788399 2.77%, #adbad8 21.93%, #9fb4a7 60.12%, #9ea9a5 101.5%); */
+    background-color: burlywood;
+    position: sticky !important;
+}
+
+.me-auto{
+    align-items: center;
+}
+
+#collasible-nav-dropdown{
+    color: black;
+}
+
+.nav-text{
+    /* color: white!important; */
+    color: black!important;
+    font-size: 20px;
+    font-family: "Helvetica";
+    margin-right: 10px;
+    text-decoration: none!important;
+}
+
+.nav-link {
+    /* display: block; */
+    padding: 0.5rem 1rem;
+}
+
+

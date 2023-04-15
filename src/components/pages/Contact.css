@@ -1,0 +1,154 @@
+/* @charset "utf-8";
+/* CSS Document */ */
+
+/* .back{
+	background-color: #cecece;
+	height: 100%;
+	width: 100px;
+} */
+
+a{
+	text-decoration:none;
+}
+.social a{
+	padding: 20px;
+	color:#7b7c7c;
+	font-size:1.1rem;
+}
+#contact{
+	position: relative;
+	/* left: 50%; */
+	justify-content: center;
+	top: 50%;
+	/* transform: translate(-30%); */
+	display: flex;
+	align-items: center;
+   
+}
+.social{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: #FFFFFF;
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.3);
+}
+.social a:hover{
+	color:#000000;
+	transition: all ease 0.3s;
+}
+.contact-box{
+	background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 15px 25px;
+	box-shadow: 2px 0px 30px rgba(0,0,0,0.1);
+}
+.c-heading h1{
+	font-family: Roboto;
+	color: #e7eef3;
+	font-size: 2.5rem;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+}
+.c-heading p{
+	font-family: Roboto;
+	color:#cecece;
+	font-size: 0.8rem;
+	font-weight: lighter;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+.c-inputs h1 {
+	font-size: 24px;
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-bottom: 20px;
+}
+
+.c-inputs h2 {
+	font-size: 20px;
+	color: #fff;
+	font-weight: 400;
+	margin-bottom: 7px;
+	width:250px;
+	height: 45px;
+}
+
+.c-inputs h2 i {
+	font-size: 16px;
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+	background: #f5f5f5;
+	color: #000;
+	border-radius: 50px;
+	line-height: 40px;
+	text-align: center;
+}
+
+.c-inputs p {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 2;
+	border-radius: 1;
+}
+
+.c-inputs{
+	margin: 15px 0px;
+	display: flex;
+	/*flex: 30%*/
+	flex-direction: column;
+	justify-content: center;
+	/*align-items: center;*/
+}
+
+.c-inputs h2:hover + p{
+    background-color: #fff; 
+    color: #242424; 
+  transition: background-color 0.5s ease;
+  /*transition: 0.3s; */
+}
+
+
+.map{
+	filter: grayscale(0.2);
+	box-shadow: 2px 2px 30px rgba(0,0,0,0.2);
+	border: 2px solid #FFFFFF;
+}
+@media(max-width:1100px){
+	.map{
+		display: none;
+	}
+}
+@media(max-width:450px){
+	.social{
+		display: none;
+	}
+	.contact-box{
+		width: 100%;
+		/* height: 100vh; */
+		box-sizing: border-box;
+	}
+	#contact{
+		position: static;
+		transform: translate(0,0);
+		width:100%;
+		/* height: 100vh; */
+		box-sizing: border-box;
+	}
+	.c-heading h1{
+		font-size: 2.2rem;
+		text-align: center;
+	}
+	
+}
+ 

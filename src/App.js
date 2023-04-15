@@ -1,0 +1,60 @@
+import React from "react";
+import "./App.css";
+import Navbar1 from "./components/Navbar";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Home from "./components/pages/Home";
+// import Services from './components/pages/Services';
+import Products from "./components/pages/Products";
+import SignUp from "./components/pages/SignUp";
+import ContactUs from "./components/pages/ContactUs";
+import Marketing from "./components/pages/JaggeryBlock";
+import About from "./components/pages/About";
+import Consulting from "./components/pages/JaggeryPowder";
+import ImageSlider from "./components/ImageSlider";
+import Cards1 from "./components/Gallery";
+import ScrollToTop from "./components/ScrollToTop";
+import Contact from "./components/pages/Contact";
+import Footer from "./components/Footer";
+import Packages from "./components/Packages";
+import Services from "./components/Products/Services";
+import Lorem from "./components/Gallery/Gallery";
+import NewNav from "./components/Nav/Nav";
+import Gallery from "./components/Gallery/Gallery";
+import NewNavbar from "./components/NewNavbar";
+import JaggeryCandy from "./components/pages/JaggeryCandy";
+import JaggeryLiquid from "./components/pages/JaggeryLiquid";
+import JaggeryBlock from "./components/pages/JaggeryBlock";
+import JaggeryPowder from "./components/pages/JaggeryPowder";
+import CollapsibleExample from "./components/ReactNavbar";
+function App() {
+  return (
+    <Router>
+    <CollapsibleExample/>
+      {/* <Navbar1 /> */}
+      {/* <NewNavbar/> */}
+      {/* <NewNav/> */}
+      {/* <ImageSlider/> */}
+
+      <Switch>
+        <Route path="/" exact component={Home} />
+        <Route path="/about" exact component={About} />
+        {/* <Route path="/services" exact component={Services}/> */}
+        <Route path="/products" exact component={Packages} />
+        <Route path="/gallery" component={Gallery} />
+        {/* <Route path="/contact-us" exact component={ContactUs}/> */}
+        <Route path="/sign-up" exact component={SignUp} />
+        <Route path="/jaggeryblocks" exact component={JaggeryBlock} />
+        <Route path="/jaggerypowder" exact component={JaggeryPowder} />
+        <Route path="/jaggerycandy" exact component={JaggeryCandy} />
+        <Route path="/jaggeryliquid" exact component={JaggeryLiquid} />
+        <Route path="/contact-us" component={Contact} />
+      </Switch>
+      {/* <Cards1/> */}
+      {/* <Services/> */}
+      {/* <Footer/> */}
+      {/* <ScrollToTop/> */}
+    </Router>
+  );
+}
+
+export default App;
