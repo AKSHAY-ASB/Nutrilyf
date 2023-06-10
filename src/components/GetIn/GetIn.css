@@ -6,9 +6,32 @@
     /* height: 700px; */
 }
 
+.back{
+    background-image: url("../../images/New/Jaggery.jpg");
+    background-repeat: none;
+    background-size: cover;
+}
+
 /* .right{
     background-color: #E6E7E8;
 } */
+
+.title-text{
+    color: #000;
+    font-family: cursive;
+    font-style: normal;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.mission_text{
+    font-family: 'Poppins'; 
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 35px;
+    color: #fff;
+}
 
 .div-center{
     position: absolute;
@@ -160,8 +183,8 @@ input[type="password"] {
 }
 
 .get-in-text{
-    /* font-family: 'Poppins'; */
-    /* font-style: normal; */
+    font-family: 'Poppins';
+    font-style: italic;
     font-weight: 700;
     font-size: 20px;
     line-height: 35px;

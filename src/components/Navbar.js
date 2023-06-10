@@ -4,7 +4,10 @@ import { Button } from "./Button";
 import { Link } from "react-router-dom";
 import Dropdown from "./Dropdown";
 // import {Logo} from '../images/nutrilyf_Logo.svg';
-import Logo from "../images/nitrilyf_Logops.jpg";
+// import Logo from "../images/nitrilyf_Logops.jpg";
+import Logo from "../images/600.png";
+
+
 // import Logo from '../images/right_arrow.png'
 
 function Navbar1() {
@@ -135,7 +138,7 @@ function Navbar1() {
               }
               onClick={() => handleSelection("Contact")}
             >
-              Contact
+              Contact Us
             </Link>
           </li>
         </ul>

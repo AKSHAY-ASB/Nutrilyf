@@ -1,5 +1,6 @@
 import React , {useEffect} from 'react';
 import {Carousel,Container,Row,Col,Jumbotron} from 'react-bootstrap'
+import Footer from '../Footer/Footer';
 import GetIn from '../GetIn/GetIn';
 import SixthSection from '../SIxthSection/SixthSection';
 

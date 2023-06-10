@@ -9,6 +9,8 @@ import Services from '../Products/Services';
 import Footer from '../Footer/Footer';
 import NewNav from '../Nav/Nav';
 import Testominal from '../Testimonial/Testominal';
+import ContactForm from './getQuote';
+import EnquiryForm from '../getQuote/EnquiryForm';
 
 
 export default function Home(){
@@ -28,9 +30,11 @@ export default function Home(){
             <Services/>
             {/* <Cards1/> */}
             <Testominal/>
-            <About/>
+            <EnquiryForm/>
+            {/* <ContactForm/> */}
+            {/* <About/> */}
             <Counter/>
-            <Contact/>
+            {/* <Contact/> */}
             <Footer/>
         </>
     );

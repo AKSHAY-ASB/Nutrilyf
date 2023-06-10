@@ -43,20 +43,20 @@ const Services = () => {
   return (
     <>
       <div className="product-back">
-        <div className="container pt-5">
+        <div className="container">
           {/* <TitleandText
             // title="Services"
             content="We create software solutions that make jobs easier"
             className="abc"
           /> */}
 
-          <h1 className="component-title-text">Our Products</h1>
+          <h1 className="pt-5 component-title-text">Our Products</h1>
 
           <div className="row">
             <div className="col-md-6 product-right">
               <div>
                 <h3 className="services-title">Jaggery</h3>
-                <div className="my-5">
+                <div className="">
                   <div className="img-icon mt-2">
                     <BsCheckCircleFill size={50} style={{ color: "#5DC80A" }} />
                     <div className="img-icon-text">
@@ -93,17 +93,20 @@ const Services = () => {
                     </div>
                   </div>
                 </div>
-                {/* <Link to="/products" > */}
+                <Link to="/jaggeryblocks" >
+                <div className="mt-3">
                 <button
                   type="button"
                   className="btn-learn-more"
-                  onClick={() => handleOpen(modalData[0])}
+                  // onClick={() => handleOpen(modalData[0])}
+                  
                 >
                   SEE MORE
                   <img style={{ marginLeft: 15 }} src={right_arrow} alt="" />
                 </button>
+                </div>
 
-                {/* </Link> */}
+                </Link>
               </div>
             </div>
             <div className="col-md-6 product-left mt-5">
@@ -169,16 +172,16 @@ the digestive system.</p>
                     </div>
                   </div>
                 </div>
-                {/* <Link to="/products" > */}
+                <Link to="/jaggerypowder" >
                 <button
                   type="button"
                   className="btn-learn-more"
-                  onClick={() => handleOpen(modalData[1])}
+                  // onClick={() => handleOpen(modalData[1])}
                 >
                   SEE MORE
                   <img style={{ marginLeft: 15 }} src={right_arrow} alt="" />
                 </button>
-                {/* </Link> */}
+                </Link>
               </div>
             </div>
           </div>
@@ -215,17 +218,17 @@ the digestive system.</p>
                     </div>
                   </div>
                 </div>
-                {/* <Link to="/products"> */}
+                <Link to="/jaggerycandy">
                 <button
                   type="button"
                   className="btn-learn-more"
-                  onClick={() => handleOpen(modalData[2])}
+                  // onClick={() => handleOpen(modalData[2])}
                 >
                   SEE MORE
                   <img style={{ marginLeft: 15 }} src={right_arrow} alt="" />
                 </button>
 
-                {/* </Link> */}
+                </Link>
               </div>
             </div>
             <div className="col-md-6 product-left">
@@ -288,16 +291,16 @@ the digestive system.</p>
                     </div>
                   </div>
                 </div>
-                {/* <Link to="/products" > */}
+                <Link to="/jaggeryliquid" >
                 <button
                   type="button"
                   className="btn-learn-more"
-                  onClick={() => handleOpen(modalData[3])}
+                  // onClick={() => handleOpen(modalData[3])}
                 >
                   SEE MORE
                   <img style={{ marginLeft: 15 }} src={right_arrow} alt="" />
                 </button>
-                {/* </Link> */}
+                </Link>
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@
   }
 
 
-    .cards__item__pic-wrap1::after {
+    /* .cards__item__pic-wrap1::after {
     content: attr(data-category);
     position: absolute;
     bottom: 0;
@@ -18,7 +18,7 @@
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
-  }
+  } */
 
   .cards__item__img1 {
     position: absolute;
@@ -33,6 +33,7 @@
     max-height: 100%;
     object-fit: cover;
     transition: all 0.2s linear;
+    border-radius: 10px;
   }
 
   .cards__item__img1:hover {

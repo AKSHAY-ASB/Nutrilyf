@@ -21,9 +21,9 @@ function CardTour({setSelectedlist,executeScroll}) {
         {/* <Card  className="hok" onClick={()=>onButtonClick('kop')}> */}
         <Card>
             <Card.Img variant="top" 
-              src="/images/jaggeryBlock/jaggeryBlock1.jpg"
+              src="/images/jaggeryBlock/jaggeryBlock2.jpg"
             />
-            <Card.Body style={{backgroundColor:'#fff'}}>
+            <Card.Body style={{height:"100%",backgroundColor:'#fff'}}>
            
             <Card.Text className="">
             Good Life Cane Jaggery Block is extracted from sugarcane and is considered to be the best substitute of natural sugar. It is also used in few of the curries or biryani for a slight touch of sweetness. It is used in making your favourite sweet dish like gul poli.
@@ -58,7 +58,7 @@ function CardTour({setSelectedlist,executeScroll}) {
         <Card>
             <Card.Img variant="top" 
              
-            src="/images/jaggeryCandy/jaggeryCandy.jpg"
+            src="/images/jaggeryCandy/jagg_candy.jpg"
             />
             <Card.Body style={{backgroundColor:'#fff'}}>
             {/* <Card.Title>North Goa</Card.Title> */}

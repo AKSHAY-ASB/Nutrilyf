@@ -37,32 +37,22 @@ function ImageSlider() {
                                 alt="First slide"
                                 />
                             <Carousel.Caption>
-                                <h1 className="text">Fresh Organic jaggary</h1>
+                                <h1 className="text">Fresh natural jaggary</h1>
                                 <p className="p">All types of product Available.</p>
                             </Carousel.Caption>
                         </Carousel.Item>
-                        <Carousel.Item>
+                        {/* <Carousel.Item>
                             <img
                             className="d-md-block w-100 "
                             src={Slider2}
                             alt="Second slide"
                             />
                             <Carousel.Caption>
-                                <h1 className="text">Fresh Organic jaggary</h1>
+                                <h1 className="text">Fresh natural jaggary</h1>
                                 <p>All types of product Available.</p>
                             </Carousel.Caption>
-                        </Carousel.Item>
-                        <Carousel.Item>
-                            <img
-                            className="d-block w-100"
-                            src={Slider3}
-                            alt="Third slide"
-                            />
-                            <Carousel.Caption>
-                            <h1 className="text">Fresh Organic jaggary </h1>
-                                <p>All types of product Available.</p>
-                            </Carousel.Caption>
-                        </Carousel.Item>
+                        </Carousel.Item> */}
+                        
                         <Carousel.Item>
                             <img
                             className="d-block w-100"
@@ -70,7 +60,7 @@ function ImageSlider() {
                             alt="Third slide"
                             />
                             <Carousel.Caption>
-                            <h1 className="text">Fresh Organic jaggary </h1>
+                            <h1 className="text">Fresh natural jaggary </h1>
                                 <p>All types of product Available.</p>
                             </Carousel.Caption>
                         </Carousel.Item>

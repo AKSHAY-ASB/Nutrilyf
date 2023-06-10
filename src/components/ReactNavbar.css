@@ -1,7 +1,11 @@
 .bg-navbar{
   /* background: linear-gradient(26deg, #788399 2.77%, #adbad8 21.93%, #9fb4a7 60.12%, #9ea9a5 101.5%); */
-    background-color: burlywood;
+    /* background-color: burlywood; */
+    background-color: #fff;
     position: sticky !important;
+}
+.menu{
+background-color: #751D60!important;
 }
 
 .me-auto{
@@ -9,16 +13,28 @@
 }
 
 #collasible-nav-dropdown{
-    color: black;
+    color: #49403b;
+    font-family: fantasy;
+    font-size: 20px;
+}
+
+.text-dropdown{
+    color: #49403b;
+    font-family: fantasy;
+    font-size: 16px;
 }
 
 .nav-text{
     /* color: white!important; */
-    color: black!important;
+    color: #49403b!important;
     font-size: 20px;
-    font-family: "Helvetica";
     margin-right: 10px;
     text-decoration: none!important;
+    font-family: fantasy;
+}
+
+.nav-text-dropdown{
+    font-family: fantasy!important;
 }
 
 .nav-link {
