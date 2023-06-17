@@ -19,10 +19,7 @@ import jaggery_cube from "../../images/New/JaggeryCubes.jpg";
 import jaggery_Liquid from "../../images/New/JaggeryLiquid.jpg";
 import jaggery_Candy from "../../images/New/JaggeryCandy.jpg";
 
-// src="/images/Nepo/4.jpg"
 
-// import TitleandText from "../TitleandText/TitleandText";
-// import checkmark from "../../assets/checkmark.png";
 
 import { BsCheckCircleFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
@@ -120,11 +117,11 @@ const Services = () => {
             </div>
           </div>
 
-          <ProductModel
+          {/* <ProductModel
             show={modalShow}
             onHide={() => setModalShow(false)}
             data={modalItem}
-          />
+          /> */}
 
           <div className="row py-5">
             <div className="col-md-6 product-left">
@@ -149,13 +146,7 @@ const Services = () => {
                       </p>
                     </div>
                   </div>
-                  {/* <div className="img-icon mt-2">
-                  <BsCheckCircleFill size={30} style={{ color: "#5DC80A" }} />
-                  <div className="img-icon-text">
-                    <p className="conference-text"> Being rich in fibre, jaggery powder helps to activate digestive enzymes and thus improves
-the digestive system.</p>
-                  </div>
-                </div> */}
+                  
                   <div className="img-icon mt-2">
                     <BsCheckCircleFill size={40} style={{ color: "#5DC80A" }} />
                     <div className="img-icon-text">
@@ -265,7 +256,7 @@ the digestive system.</p>
                     </div>
                   </div>
                   <div className="img-icon mt-2">
-                    <BsCheckCircleFill size={30} style={{ color: "#5DC80A" }} />
+                    <BsCheckCircleFill size={35} style={{ color: "#5DC80A" }} />
                     <div className="img-icon-text">
                       <p className="conference-text">
                         It controls the acidity as well as creates energy in the
@@ -305,59 +296,7 @@ the digestive system.</p>
             </div>
           </div>
 
-          {/* <div className="row py-5">
-            <div className="col-md-6 product-right">
-              <div>
-                <h3 className="services-title">Jaggery candy</h3>
-                <div className="my-5">
-                  <div className="img-icon mt-2">
-                    <BsCheckCircleFill size={30} style={{ color: "#5DC80A" }} />
-                    <div className="img-icon-text">
-                      <p className="conference-text">
-                        Jaggery blocks or in powdered form can be taken with
-                        peanuts
-                      </p>
-                    </div>
-                  </div>
-                  <div className="img-icon mt-2">
-                    <BsCheckCircleFill size={30} style={{ color: "#5DC80A" }} />
-                    <div className="img-icon-text">
-                      <p className="conference-text">
-                        It can be replaced with sugar in sweets, health drinks.
-                      </p>
-                    </div>
-                  </div>
-
-                  <div className="img-icon mt-2">
-                    <BsCheckCircleFill size={30} style={{ color: "#5DC80A" }} />
-                    <div className="img-icon-text">
-                      <p className="conference-text">
-                        It can be taken with pure organic turmeric to fight
-                        infections.
-                      </p>
-                    </div>
-                  </div>
-                </div>
-                <button
-                  type="button"
-                  className="btn-learn-more"
-                  onClick={() => handleOpen(modalData[4])}
-                >
-                  SEE MORE
-                  <img style={{ marginLeft: 15 }} src={right_arrow} alt="" />
-                </button>
-              </div>
-            </div>
-            <div className="col-md-6 product-left">
-              <div>
-                <img
-                  style={{ width: "100%", borderRadius: 10 }}
-                  src={jaggery_Candy}
-                  alt=""
-                />
-              </div>
-            </div>
-          </div> */}
+        
         </div>
       </div>
     </>

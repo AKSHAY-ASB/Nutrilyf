@@ -26,7 +26,7 @@
 
 
 
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import JaggeryPowderCategory from '../SubCategory/JaggeryPowderCategory';
 import MenuItems from '../SubCategory/MenuItems';
 import img1 from '../../images/Gallery/jaggeryBlock2.jpg'
@@ -35,6 +35,11 @@ const AllCatValues = [... new Set(JaggeryPowderCategory.map((CurEle) => CurEle.c
 
 
 export default function JaggeryBlock() {
+
+    useEffect(() => {
+        window.scrollTo(0, 0); 
+      }, []);
+
     const [items, setItems] = useState(JaggeryPowderCategory);
     return (
         <>

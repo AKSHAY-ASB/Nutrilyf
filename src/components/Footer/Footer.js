@@ -8,7 +8,7 @@ import instagram from "../../images/instagram.png";
 import twitter from "../../images/twitter.png";
 import { Link } from 'react-router-dom';
 // import logo from "../../assets/White.png";
-import Logo from '../../images/Gallery/0001.png'
+import Logo from '../../images/0001.png'
 
 const Footer = ({ onClick }) => {
   return (
@@ -46,7 +46,7 @@ const Footer = ({ onClick }) => {
                   <Link to='/about' className='footer-subTitle'>
                     <h4 className='footer-subTitle'>About us</h4>
                  
-                    <img src={Logo} alt="img"  style={{ backgroundColor: "#fff" }}/>
+                    <img src={Logo} alt="img"  style={{ backgroundColor: 'transparent' }}/>
                 
                   </Link>
                 </div>
@@ -85,12 +85,12 @@ const Footer = ({ onClick }) => {
 
             <div className='row' style={{ color: "#fff" }}>
               <div className='col-md-12'>
-                <h6>@2023 Nutrilyf.in, Inc.All Rights Reserved</h6>
+                <h5>@2023 Nutrilyf.in, Inc.All Rights Reserved</h5>
               </div>
               <div className='col-md-12'>
-                <h6 style={{ textDecoration: 'none'}}>designed and developed by &&nbsp;
+                <h5>designed and developed by &&nbsp;
                   <a href="https://leadpin.in/" target="_blank" style={{ textDecoration: 'none',color:'#DB6107'}}>leadpin.in</a>
-                </h6>
+                </h5>
               </div>
             </div>
           </div>

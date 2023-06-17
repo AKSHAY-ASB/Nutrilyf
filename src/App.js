@@ -26,22 +26,18 @@ import JaggeryLiquid from "./components/pages/JaggeryLiquid";
 import JaggeryBlock from "./components/pages/JaggeryBlock";
 import JaggeryPowder from "./components/pages/JaggeryPowder";
 import CollapsibleExample from "./components/ReactNavbar";
+import ScrollArrow from './components/ScrollToTop/ScrollToTop'
+
+
 function App() {
   return (
     <Router>
-    <CollapsibleExample/>
-      {/* <Navbar1 /> */}
-      {/* <NewNavbar/> */}
-      {/* <NewNav/> */}
-      {/* <ImageSlider/> */}
-
+      <CollapsibleExample />
       <Switch>
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={About} />
-        {/* <Route path="/services" exact component={Services}/> */}
         <Route path="/products" exact component={Packages} />
         <Route path="/gallery" component={Gallery} />
-        {/* <Route path="/contact-us" exact component={ContactUs}/> */}
         <Route path="/sign-up" exact component={SignUp} />
         <Route path="/jaggeryblocks" exact component={JaggeryBlock} />
         <Route path="/jaggerypowder" exact component={JaggeryPowder} />
@@ -49,10 +45,7 @@ function App() {
         <Route path="/jaggeryliquid" exact component={JaggeryLiquid} />
         <Route path="/contact-us" component={Contact} />
       </Switch>
-      {/* <Cards1/> */}
-      {/* <Services/> */}
-      {/* <Footer/> */}
-      {/* <ScrollToTop/> */}
+      <ScrollArrow />
     </Router>
   );
 }

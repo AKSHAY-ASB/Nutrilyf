@@ -16,15 +16,23 @@ a{
 	font-size:1.1rem;
 }
 #contact{
-	position: relative;
+	/* position: relative; */
 	/* left: 50%; */
-	justify-content: center;
-	top: 50%;
+	/* justify-content: center; */
+	/* top: 50%; */
 	/* transform: translate(-30%); */
 	display: flex;
-	align-items: center;
+	/* align-items: center; */
    
 }
+
+@media only screen and (max-width: 768px) {
+	#contact{
+		display: block;
+	}
+}
+
+
 .social{
 	display: flex;
 	flex-direction: column;
@@ -38,7 +46,9 @@ a{
 	transition: all ease 0.3s;
 }
 .contact-box{
-	background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+	/* background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%); */
+	background-color: #1F1D1D;
+    border-radius: 15px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -118,6 +128,9 @@ a{
   /*transition: 0.3s; */
 }
 
+.sendMsg{
+	text-align: right;
+}
 
 .map{
 	filter: grayscale(0.2);

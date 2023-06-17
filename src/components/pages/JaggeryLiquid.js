@@ -1,8 +1,11 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import img1 from '../../images/Gallery/JaggeryLiquid.jpg'
 import Footer from '../Footer/Footer'
 
 const JaggeryLiquid = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
   return (
     <>
       <h1 className='component-title-text my-3'>Jaggery Liquid</h1>

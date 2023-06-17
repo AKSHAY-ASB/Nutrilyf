@@ -11,7 +11,7 @@ import NewNav from '../Nav/Nav';
 import Testominal from '../Testimonial/Testominal';
 import ContactForm from './getQuote';
 import EnquiryForm from '../getQuote/EnquiryForm';
-
+import NutritionFactsTable from '../NutritionFactsTable'
 
 export default function Home(){
 
@@ -30,10 +30,16 @@ export default function Home(){
             <Services/>
             {/* <Cards1/> */}
             <Testominal/>
+            
+
+            <NutritionFactsTable/>
+            <Counter/>
             <EnquiryForm/>
+
+
             {/* <ContactForm/> */}
             {/* <About/> */}
-            <Counter/>
+            
             {/* <Contact/> */}
             <Footer/>
         </>

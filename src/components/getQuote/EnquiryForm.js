@@ -77,7 +77,7 @@ const EnquiryForm = () => {
     <>
     <div className="getIn-div">
       <div class="container pb-5">
-      <h1>Contact form</h1>
+      <h1 className="component-title-text pt-5">Contact form</h1>
 
         <div className="row" >
           <div className="left col-md-6">
@@ -114,7 +114,7 @@ const EnquiryForm = () => {
               <div>
               <img src={Logo} alt="img"/>
                 {/* <h1 className="get-in-text pt-2">Let Dreampotential help</h1> */}
-                <h1 className="get-in-textTitle pt-2">Always deliver more than expected</h1>
+                <h1 className="get-in-textTitle">Always deliver more than expected</h1>
               </div>
               {/* <button
                   className="mt-5 member"
@@ -136,6 +136,7 @@ const EnquiryForm = () => {
                   name="name"
                   onChange={onChangeregi}
                   value={valuesregi.name}
+                  required
                 />
                 {errorCreate.name && (
                   <p className="err-msg">{errorCreate.name}</p>

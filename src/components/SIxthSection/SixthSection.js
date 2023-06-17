@@ -154,14 +154,14 @@ const SixthSection = () => {
           <div className="row">
             <div className="left col-md-6">
               <div className="mt-5">
-                <h1 className="title-text" >Mission</h1>
+                <h1 className="component-title-text" >Mission</h1>
                 <h1 className="mission_content pt-2">"Creating Healthier Live" , We are committed to produce and supply best quality, unique and inovative products to the customers.</h1>
 
               </div>
             </div>
             <div className="right col-md-6">
               <div className="mt-5">
-                <h1 className="title-text" >Vision</h1>
+                <h1 className="component-title-text" >Vision</h1>
                 <h1 className="mission_content pt-2">"We aim to become a pionner and a highly trusted brand by provinding consious healthy food products to customers."</h1>
 
               </div>

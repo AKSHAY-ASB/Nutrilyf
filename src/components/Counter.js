@@ -5,7 +5,7 @@ import {Row,Container,Col} from 'react-bootstrap'
 
 function Counter() {
     return (
-        <div className="fx" style={{color:'white', background:'#751D60' ,height:'100px'}}>
+        <div className="fx" style={{color:'white', background:'#81B938' ,height:'100px'}}>
         <Container  className="pt-4">
         <Row className="" >
           <Col className="text-center"><CountUp delay={2} duration={2.75} end={100} />+</Col>

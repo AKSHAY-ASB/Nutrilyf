@@ -43,3 +43,48 @@ background-color: #751D60!important;
 }
 
 
+.label-div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    
+  }
+  .active {
+    color: #fff !important;
+    background-color: orange;
+    border-radius: 10px;
+  }
+
+
+  .nav-item-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 19px;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 2rem;
+    text-decoration: none;
+    margin: 5px 1rem;
+    font-size: 15px;
+}
+
+.nav-item-text:hover{ 
+    text-decoration: none;
+    color: #fff;
+    background-color: orange;
+    border-radius: 10px;
+}
+
+
+.txtLabel1 {
+    margin-left: inherit;
+    margin-right: 0;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 auto;
+  }

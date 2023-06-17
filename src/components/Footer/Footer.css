@@ -1,5 +1,5 @@
 .footer {
-    background-color: #111111;
+    background-color: #81B938;
     display: flex;
     /* justify-content: space-between; */
     justify-content: center;
@@ -11,7 +11,7 @@
     margin-bottom: 24px;
     font-size: 30px;
     font-family: cursive;
-    color: hsl(0, 0%, 100%)
+    color: #fff
   }
 
 .footer-subscription-text{
@@ -26,7 +26,7 @@
 }
 
 .footer-subTitle{
-    color: #ffffff!important;
+    color: #fff!important;
     text-decoration: none!important;
 }
 
@@ -105,7 +105,7 @@
         list-style:none
     }
     .mobile_email:hover{
-        color: #fff;
+        color:#fff;
     }
 }
 
@@ -150,6 +150,6 @@ h5{
   }
 
   .sub-text-footer{
-    color:#fff;
-    /* font-size:13px; */
+    color: #fff;
+    font-size:18px;
   }

@@ -127,7 +127,7 @@ input[type="password"] {
 
 @media screen and (max-width:425px) {
     .left{
-        background-color: #751D60;
+        /* background-color: #751D60; */
         height: 200px;
         justify-content: center;
     }
@@ -178,12 +178,12 @@ input[type="password"] {
 }
 
 .get-in-textTitle{
+    font-style: normal;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     line-height: 35px;
-    color: #000;
+    color: #25305a;
     font-style: italic;
-    font-family: 'cursive';
 }
 
 @media screen and (min-width:768px) and (max-width:1024px) {

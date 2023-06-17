@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import Cards1 from '../Gallery';
 import JaggeryCandyCategory from '../SubCategory/JaggeryCandyCategory';
 import Menu from '../SubCategory/Menu';
@@ -12,6 +12,10 @@ import Footer from '../Footer/Footer';
 const AllCatValues = [... new Set(JaggeryCandyCategory.map((CurEle) => CurEle.category))]
 
 export default function JaggeryBlock() {
+
+  useEffect(() => {
+    window.scrollTo(0, 0); 
+  }, []);
 
   const [items, setItems] = useState(JaggeryCandyCategory);
 
