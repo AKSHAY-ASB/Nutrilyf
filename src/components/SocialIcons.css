@@ -1,0 +1,25 @@
+/* SocialIcons.css */
+
+.social-icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .social-icons div {
+    margin-right: 10px;
+  }
+  
+  .social-icons a {
+    color: #3b5998;
+    font-size: 40px;
+    text-decoration: none;
+  }
+
+  .insta {
+      color: #d62976!important;
+  }
+  
+  .social-icons a:hover {
+    color: #555;
+  }
+  

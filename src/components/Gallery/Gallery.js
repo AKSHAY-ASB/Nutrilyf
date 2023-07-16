@@ -22,17 +22,17 @@ function Gallery() {
         <div className='cards__wrapper'>
           <ul className='cards__items'>
             <CardItems
-              src="/images/gallery_Photos/Gallery1.jpg"
+              src="/images/NewPictures/JC.jpg"
               text='The interior of the new Innova Crysta is unequalled in its refinement and class.'
 
             />
             <CardItems
-              src="/images/gallery_Photos/Gallery1.jpg"
+              src="/images/NewPictures/np1new.jpg"
               text='Be it the plush, camel tan seats, enhanced legroom or soft-touch materials.'
 
             />
             <CardItems
-              src="/images/gallery_Photos/Gallery1.jpg"
+              src="/images/NewPictures/np5new.jpg"
               text='Be it the plush, camel tan seats, enhanced legroom or soft-touch materials.'
 
             />
@@ -40,21 +40,40 @@ function Gallery() {
           </ul>
           <ul className='cards__items'>
             <CardItems
-              src="/images/gallery_Photos/Gallery1.jpg"
+              src="/images/NewPictures/np6new.jpg"
               text=' The new Innova spells unparalleled comfort and finesse.'
 
             />
             <CardItems
-              src="/images/gallery_Photos/Gallery1.jpg"
+              src="/images/NewPictures/np15new.jpg"
               text='The new Innova Crysta is not only powerful and comfortable, it’s safe too. '
 
             />
             <CardItems
-              src="/images/gallery_Photos/Gallery1.jpg"
+              src="/images/NewPictures/np7new.jpg"
               text='It protects you and your family with 7 SRS Airbags during any eventuality.'
 
             />
           </ul>
+
+          <ul className='cards__items'>
+            <CardItems
+              src="/images/NewPictures/np8new.jpg"
+              text=' The new Innova spells unparalleled comfort and finesse.'
+
+            />
+            <CardItems
+              src="/images/NewPictures/np10new.jpg"
+              text='The new Innova Crysta is not only powerful and comfortable, it’s safe too. '
+
+            />
+            <CardItems
+              src="/images/NewPictures/np16new.jpg"
+              text='It protects you and your family with 7 SRS Airbags during any eventuality.'
+
+            />
+          </ul>
+
         </div>
       </div>
       <Footer />

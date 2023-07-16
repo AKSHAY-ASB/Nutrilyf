@@ -112,14 +112,21 @@
   .social-text {
     font-size: 18px;
   }
-  .services-title {
+  /* .services-title {
     font-size: 25px;
-  }
+  } */
   .abc {
     font-size: 25px;
   }
   .component-title-text {
     font-size: 30px;
+  }
+  .reverse{
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .product-left{
+    padding-top: 30px;
   }
 }
 
@@ -127,11 +134,11 @@
   .abc {
     font-size: 25px !important;
   }
-  .services-title {
+  /* .services-title {
     font-size: 20px;
-  }
+  } */
   .component-title-text {
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 

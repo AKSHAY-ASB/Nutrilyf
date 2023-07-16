@@ -6,8 +6,14 @@ import MenuItems from '../SubCategory/MenuItems';
 import SubCat from '../SubCategory/SubCat';
 // import Candy from "../../images/Gallery/Jaggery.png"
 // import jaggery_powder from "../../images/New/JaggeryPowder.jpg";
-import img1 from '../../images/Gallery/jagg_candy.jpg'
+import img1 from '../../images/Gallery/np14.JPG'
 import Footer from '../Footer/Footer';
+import color from "../../images/Information_Icons/color.png"
+import block from "../../images/Information_Icons/block.png"
+import Type from "../../images/Information_Icons/type.png"
+import box from "../../images/Information_Icons/box.png"
+import clock from "../../images/Information_Icons/clock.png"
+import purity from "../../images/Information_Icons/purity.png"
 
 const AllCatValues = [... new Set(JaggeryCandyCategory.map((CurEle) => CurEle.category))]
 
@@ -40,8 +46,72 @@ export default function JaggeryBlock() {
           fulfilled 4% daily requirements of this mineral in our lives. Therefore, eating it on a daily
           basis com lead to good intestinal health.Jaggery cube available in 8gm and 15 gm size.</p>
 
+          <div className="mainContainer">
+                <div>
+                    <img
+                        src={img1}
+                        alt="image"
+                        style={{
+                        width: "90%",
+                        height: "70vh",
+                        // borderRadius: "10px",
+                        marginTop: "30px",
+                        marginBottom: "30px",
+                        }}
+                    />
+                </div>
 
-        <img src={img1} alt="image" style={{ width: '100%', borderRadius: '10px', marginTop: '30px', marginBottom: '30px' }} />
+                <div className="contentCard">
+                <div className="titleHeader">
+                    <h3>Jaggery Candy Information</h3>
+                </div>
+                <div className="contents">
+                    <img src={color} />
+                    <div>
+                    <h6 className="tilteName">Color</h6>
+                    <small className="subTitle">Golden Brown</small>
+                    </div>
+                </div>
+                <div className="contents">
+                    <img src={block} />
+                    <div>
+                    <h6 className="tilteName">Form</h6>
+                    <small className="subTitle">8gm, 15gm</small>
+                    </div>
+                </div>
+                <div className="contents">
+
+                    <img src={Type} />
+                    <div>
+                    <h6 className="tilteName">Type</h6>
+                    <small className="subTitle">Pure and Natural Jaggery</small>
+                    </div>
+                </div>
+                <div className="contents">
+                    <img src={box} />
+                    <div>
+                    <h6 className="tilteName">Packaging Size</h6>
+                    <small className="subTitle">500 gm, 1 Kg</small>
+                    </div>
+                </div>
+                <div className="contents">
+                    <img src={clock} />
+                    <div>
+                    <h6 className="tilteName">Shelf life</h6>
+                    <small className="subTitle">8 to 10 Months</small>
+                    </div>
+                </div>
+                <div className="contents">
+                    <img src={purity} />
+                    <div>
+                    <h6 className="tilteName">Purity</h6>
+                    <small className="subTitle">100%</small>
+                    </div>
+                </div>
+                </div>
+            </div>
+      
+      
       </div>
 
 

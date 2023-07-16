@@ -1,16 +1,52 @@
-.text {
-    /* color:#dadd0d; */
+/* .text {
     font-size:50px;
-    /* margin-bottom: 50px; */
     font-weight: 900;
 }
 
-/* .p{
-   color:black;
-} */
 
 @media only screen and (max-width: 768px) {
     .text {
      font-size: 25px;
     }
   }
+
+
+  .main-div{
+      width: 100%;
+  }
+
+  .image-slider{
+      width: 100%;
+  } */
+
+
+
+  .slider-image {
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .slider-image:hover {
+    transform: scale(1.1);
+  }
+  
+  .slider-caption {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+  }
+  
+  .slider-title {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .slider-description {
+    font-size: 18px;
+  }
+  
+
+
+  

@@ -12,6 +12,8 @@ import Testominal from '../Testimonial/Testominal';
 import ContactForm from './getQuote';
 import EnquiryForm from '../getQuote/EnquiryForm';
 import NutritionFactsTable from '../NutritionFactsTable'
+import Benefits from '../Benefits/Benefits';
+import ImageSlider from '../ImageSlider';
 
 export default function Home(){
 
@@ -25,17 +27,20 @@ export default function Home(){
 
     return(
         <>
-        {/* <NewNav/> */}
-            <HeroSection/>
+     
+            <ImageSlider/>
+
             <Services/>
             {/* <Cards1/> */}
+            <hr/>
             <Testominal/>
             
-
+                <hr/>
             <NutritionFactsTable/>
-            <Counter/>
+            <hr/>
             <EnquiryForm/>
-
+            <Counter/>
+            <Benefits/>
 
             {/* <ContactForm/> */}
             {/* <About/> */}

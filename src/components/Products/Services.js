@@ -14,10 +14,10 @@ import Conference_base from "../../images/Conference_base_New.png";
 import teacher_ui_logo from "../../images/teacher-ui-new.png";
 
 import jaggery from "../../images/New/Jaggery.jpg";
-import jaggery_powder from "../../images/New/JaggeryPowder.jpg";
-import jaggery_cube from "../../images/New/JaggeryCubes.jpg";
-import jaggery_Liquid from "../../images/New/JaggeryLiquid.jpg";
-import jaggery_Candy from "../../images/New/JaggeryCandy.jpg";
+import jaggery_powder from "../../images/New/jagg_powder.jpg";
+import jaggery_cube from "../../images/New/jagg_candy_new.jpg";
+import jaggery_Liquid from "../../images/New/jagg_syrup.jpg";
+import jaggery_Candy from "../../images/New/jagg_candy_new.jpg";
 
 
 
@@ -47,13 +47,13 @@ const Services = () => {
             className="abc"
           /> */}
 
-          <h1 className="pt-5 component-title-text">Our Products</h1>
+          <h1 className="py-3 component-title-text">Our Products</h1>
 
           <div className="row">
             <div className="col-md-6 product-right">
               <div>
-                <h3 className="services-title">Jaggery</h3>
                 <div className="">
+                <h3 className="services-title">Jaggery</h3>
                   <div className="img-icon mt-2">
                     <BsCheckCircleFill size={50} style={{ color: "#5DC80A" }} />
                     <div className="img-icon-text">
@@ -83,15 +83,15 @@ const Services = () => {
                     </div>
                   </div>
 
-                  <div className="img-icon mt-2">
+                  {/* <div className="img-icon mt-2">
                     <BsCheckCircleFill size={30} style={{ color: "#5DC80A" }} />
                     <div>
                       <p className="conference-text">Fresh Jaggery</p>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <Link to="/jaggeryblocks" >
-                <div className="mt-3">
+                <div className="mt-4">
                 <button
                   type="button"
                   className="btn-learn-more"
@@ -106,7 +106,7 @@ const Services = () => {
                 </Link>
               </div>
             </div>
-            <div className="col-md-6 product-left mt-5">
+            <div className="col-md-6 product-left ">
               <div>
                 <img
                   style={{ width: "100%", borderRadius: 10 }}
@@ -117,13 +117,7 @@ const Services = () => {
             </div>
           </div>
 
-          {/* <ProductModel
-            show={modalShow}
-            onHide={() => setModalShow(false)}
-            data={modalItem}
-          /> */}
-
-          <div className="row py-5">
+          <div className="row pt-5 reverse">
             <div className="col-md-6 product-left">
               <div>
                 <img
@@ -136,7 +130,7 @@ const Services = () => {
             <div className="col-md-6 product-right">
               <div>
                 <h3 className="services-title">Jaggery Powder</h3>
-                <div className="my-5">
+                <div className="">
                   <div className="img-icon mt-2">
                     <BsCheckCircleFill size={50} style={{ color: "#5DC80A" }} />
                     <div className="img-icon-text">
@@ -166,7 +160,7 @@ const Services = () => {
                 <Link to="/jaggerypowder" >
                 <button
                   type="button"
-                  className="btn-learn-more"
+                  className="btn-learn-more mt-4"
                   // onClick={() => handleOpen(modalData[1])}
                 >
                   SEE MORE
@@ -177,11 +171,11 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="row py-4">
+          <div className="row pt-5">
             <div className="col-md-6 product-right">
               <div>
                 <h3 className="services-title">Jaggery Cubes</h3>
-                <div className="my-4">
+                <div className="">
                   <div className="img-icon mt-2">
                     <BsCheckCircleFill size={25} style={{ color: "#5DC80A" }} />
                     <div className="img-icon-text">
@@ -233,7 +227,7 @@ const Services = () => {
             </div>
           </div>
 
-          <div className="row py-5">
+          <div className="row py-5 reverse">
             <div className="col-md-6 product-left">
               <div>
                 <img
@@ -245,8 +239,8 @@ const Services = () => {
             </div>
             <div className="col-md-6 product-right">
               <div>
-                <h3 className="services-title">Jaggery liquid ( Kakvi )</h3>
-                <div className="my-5">
+                <h3 className="services-title">Jaggery Syrup (Kakvi)</h3>
+                <div className="">
                   <div className="img-icon mt-2">
                     <BsCheckCircleFill size={30} style={{ color: "#5DC80A" }} />
                     <div className="img-icon-text">
@@ -285,7 +279,7 @@ const Services = () => {
                 <Link to="/jaggeryliquid" >
                 <button
                   type="button"
-                  className="btn-learn-more"
+                  className="btn-learn-more mt-3"
                   // onClick={() => handleOpen(modalData[3])}
                 >
                   SEE MORE

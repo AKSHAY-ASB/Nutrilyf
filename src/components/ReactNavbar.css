@@ -3,34 +3,50 @@
     /* background-color: burlywood; */
     background-color: #fff;
     position: sticky !important;
+    background: #fff;
 }
 .menu{
-background-color: #751D60!important;
+background-color: #81B938!important;
 }
 
 .me-auto{
+    /* align-items: center;
+    background-color: #81B938; */
+    border-radius: 20px;
     align-items: center;
+    background: #fff;
+    padding:10px;
+    /* border-radius: 1px 40px 1px 40px; */
 }
 
 #collasible-nav-dropdown{
-    color: #49403b;
+    color: #000;
     font-family: fantasy;
     font-size: 20px;
 }
 
 .text-dropdown{
-    color: #49403b;
+    color: #000;
     font-family: fantasy;
     font-size: 16px;
 }
 
 .nav-text{
     /* color: white!important; */
-    color: #49403b!important;
+    color: #000!important;
     font-size: 20px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     text-decoration: none!important;
     font-family: fantasy;
+    padding: 1px 15px 1px 15px
+}
+
+@media screen and (max-width:768px) {
+    
+    .nav-link.active {
+        color: #fff !important;
+        padding: 7px 15px 7px 15px!important;
+      }
 }
 
 .nav-text-dropdown{
@@ -67,7 +83,7 @@ background-color: #751D60!important;
     margin: 0 2rem;
     text-decoration: none;
     margin: 5px 1rem;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .nav-item-text:hover{ 
@@ -87,4 +103,22 @@ background-color: #751D60!important;
     font-size: 20px;
     font-weight: bold;
     margin: 0 auto;
+  }
+
+  .first{
+      font-size: 90px;
+  }
+  .second{
+    font-size: 70px; 
+  }
+  .third{
+    font-size: 50px; 
+  }
+
+
+  .nav-design{
+    justify-content: end;
+    background-color: darkorange;
+    padding: 30px;
+    border-radius: 100px 1px 100px 1px;
   }

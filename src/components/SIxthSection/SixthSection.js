@@ -102,10 +102,13 @@
 
 
 
-import jaggery from "../../images/New/about_img.jpg";
+import jaggery from "../../images/New/g.jpg";
 
 import backAbout from "../../images/New/background_about1.jpg";
 import Footer from "../Footer/Footer";
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
 
 import './SixthSection.css'
 
@@ -114,23 +117,33 @@ const SixthSection = () => {
     <>
       <div className="about-us">
         <div className="content">
-          <div className="about-text">
-            <h2>About Us</h2>
-            <p> The company is always engaged in the reasearch of processing and providing the top quality of various/ diverse range of agriculture products.
-              Nutrilyf agro food products is founded with goal of "Creating Healthier Lives" i.e producing and processing of natural superior quality ,
-              unique and innovative jaggery products such as flavoured jaggery, jaggery powder and jaggery candy, flavoured liquid jaggery and jaggery based products under the roof of domestic and international
-              customers as well as educating them.or making aware about various/diverse range of healthy and Nutritive agriculture
-              products essential in our daily diet.
-              The company is based in Kolhapur, and it's led by an agriculture professionals with an educational background
-              of agriculture and extensive experience in hyginically processing of agriculture produce.</p>
-          </div>
-          <div className="image">
-            <img src={jaggery} alt="About Us" />
-          </div>
+          <Col sm={9}>
+            <div className="about-text">
+              <h2>About Us</h2>
+              <p> The company is always engaged in the reasearch of processing and providing the top quality of various/ diverse range of agriculture products.
+                Nutrilyf agro food products is founded with goal of "Creating Healthier Lives" i.e producing and processing of natural superior quality ,
+                unique and innovative jaggery products such as flavoured jaggery, jaggery powder and jaggery candy, flavoured liquid jaggery and jaggery based products under the roof of domestic and international
+                customers as well as educating them.or making aware about various/diverse range of healthy and Nutritive agriculture
+                products essential in our daily diet.
+                The company is based in Kolhapur, and it's led by an agriculture professionals with an educational background
+                of agriculture and extensive experience in hyginically processing of agriculture produce.</p>
+            </div>
+          </Col>
+          <Col sm={3}>
+            <div className="video-container">
+              <video src="/Videos/aboutus.mp4" autoPlay loop muted >
+              </video>
+            </div>
+          </Col>
+
+          {/* <div className="image"> */}
+          {/* <img src={jaggery} alt="About Us" /> */}
+
+          {/* </div> */}
         </div>
       </div>
-      
-      <div className="container">
+
+      <div className="container ">
         <h1 className="component-title-text pt-3" >
           Geographical indication of Kolhapur Jaggery
         </h1>
@@ -147,33 +160,58 @@ const SixthSection = () => {
           It is exported in large quantities to europe , middle east and part of south-east asia.
 
         </h2>
-      </div>
 
-      <div className="getIn-div">
-        <div className="container pb-5">
-          <div className="row">
-            <div className="left col-md-6">
-              <div className="mt-5">
-                <h1 className="component-title-text" >Mission</h1>
-                <h1 className="mission_content pt-2">"Creating Healthier Live" , We are committed to produce and supply best quality, unique and inovative products to the customers.</h1>
 
+        <div className="getIn-div-back">
+          <div className="container pb-5">
+            <div className="row">
+              <div className="left col-md-6">
+                <div className="mt-5">
+                  {/* <h1 className="component-title-text" >Mission</h1>
+                  <h1 className="mission_content pt-2">"Creating Healthier Live" , We are committed to produce and supply best quality, unique and inovative products to the customers.</h1> */}
+
+                  <div className="card ">
+                    <div className="card-content cardMV">
+                     
+                        <h1 className="component-title-text" >Mission</h1>
+                        <h1 className="mission_content pt-2">"Creating Healthier Live" , We are committed to produce and supply best quality, unique and inovative products to the customers.</h1>
+
+                    </div>
+                  </div>
+
+                </div>
               </div>
-            </div>
-            <div className="right col-md-6">
-              <div className="mt-5">
-                <h1 className="component-title-text" >Vision</h1>
-                <h1 className="mission_content pt-2">"We aim to become a pionner and a highly trusted brand by provinding consious healthy food products to customers."</h1>
+              <div className="right col-md-6">
+                <div className="mt-5">
+                  {/* <h1 className="component-title-text" >Vision</h1>
+                  <h1 className="mission_content pt-2">"We aim to become a pionner and a highly trusted brand by provinding consious healthy food products to customers."</h1> */}
 
+
+                  <div className="card ">
+                    <div className="card-content cardMV">
+                        <h1 className="component-title-text" >Vision</h1>
+                        <h1 className="mission_content pt-2">"We aim to become a pionner and a highly trusted brand by provinding consious healthy food products to customers."</h1>
+
+                    </div>
+                  </div>
+
+
+                </div>
               </div>
             </div>
           </div>
         </div>
+
+
+
+
+
       </div>
 
 
-    
 
-      <Footer/>
+
+      <Footer />
 
     </>
   )
